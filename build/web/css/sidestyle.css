@@ -1,0 +1,98 @@
+
+#menu-v li, #menu-v a {zoom:1;} /* Hacks for IE6, IE7 */
+#menu-v, #menu-v ul
+{
+    width: 180px; /* Main Menu Item widths */
+    /*border: 1px solid #ccc;*/
+    /*border-top:none;*/
+    position: relative; font-size:0;
+    list-style: none; margin: 0; padding: 0; display:block;
+    z-index:9;
+       margin-top:1.5cm;
+
+}
+                
+/* Top level menu links style
+---------------------------------------*/
+
+#menu-v li
+{
+    background: #FFF url() repeat-x 0 2px;
+    list-style: none; margin: 0; padding: 0;
+
+}
+#menu-v li a
+{
+    font: normal 12px Times New Roman;
+    /*border-top: 1px solid #ccc;*/
+    display: block;
+    /*overflow: auto; force hasLayout in IE7 */
+    color: black;
+    text-decoration: none;
+    line-height:26px;
+    padding-left:20px; 
+	/*background-color:yellow;*/
+     /*background-color:skyblue;*/
+	
+}
+#menu-v ul li a
+{
+    line-height:30px;
+}
+                
+#menu-v li a.arrow:hover
+{
+    /*background-color:skyblue;*/
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+        
+/*Sub level menu items
+---------------------------------------*/
+#menu-v li ul
+{
+    position: absolute;
+    width: 200px; /*Sub Menu Items width */
+    visibility:hidden;
+	/*background-color:yellow;*/
+        /*background-color:skyblue;*/
+}
+        
+#menu-v a.arrow
+{
+    background-image:url(/images/item-pointer.gif);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+#menu-v li:hover, #menu-v li.onhover
+{
+    background-position:0 -62px;
+	/*background-color:magenta;*/
+        background-color:#28ecfa;
+}
+#menu-v ul li
+{
+    background: rgba(255, 255, 255, 0.86);
+    background-image:none;
+	
+}
+#menu-v ul li:hover, #menu-v ul li.onhover
+{
+    background: #FFF;
+    background-image:none;
+	/*background-color:blue;*/
+        background-color:#28ecfa;
+}
+        
+/* Holly Hack for IE \
+* html #menu-v  li
+{
+    float:left;
+    height: 1%;
+}
+* html #menu-v  li a
+{
+    height: 1%;
+}*/
+/* End */

@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Mar, 2016, 1:45:20 PM
+    Author     : ABC
+*/
+.header{
+	margin:0;
+	padding:0;
+	color: #28ecfa;
+	height:100px;
+	
+}
+.header_resize {
+	margin:0 auto;
+	padding:0 0 32px;
+	width:1366px;
+	background:#363636;
+        
+}
+.containernew {
+    width: 270px;
+    margin: 50px auto;
+    position: absolute;
+    background-color: silver;
+    height: 820px;
+}
+.container {
+    margin-top: 1cm;
+    margin-left: 35%;
+    position: absolute;
+    padding-left: 0%;
+    float: left;
+    height: 150px;
+}
+.footer {
+        
+        left:0px;
+        bottom:0px;
+        height:100px;
+        position:relative;
+        width:100%;
+        display: block;
+	background:darkblue;
+}
+.footer_resize {
+	margin:0 auto;
+	padding:0 20px;
+	width:920px;
+	line-height:1.5em;
+	color:#fffffe;
+}
+.footer_resize p {
+	margin:24px 0;
+	padding:0;
+	line-height:normal;
+	white-space:nowrap;
+	text-indent:inherit;
+}
+.footer_resize a {
+	color:#28ecfa;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	border:none;
+	text-decoration:underline;
+	background-color:transparent;
+}
+.footer_resize a:hover {
+	color:#28ecfa;
+	background-color:transparent;
+	text-decoration:none;
+}
+.footer_resize .lf {
+	float:left;
+}
+.footer_resize .rf {
+	float:right;
+}
+.separator {
+font-size:11px;
+color:#FFFFFF;
+}
+
+.hide {
+ display:none;
+}
+.footerdown
+{
+   // display: block;
+    //float: bottom;
+    position: fixed;
+    width:  100%;
+    bottom: 0;
+    //left: 0;
+}
+
+
